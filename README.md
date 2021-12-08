@@ -7,7 +7,14 @@ The purpose here is to learn about the Django core in practice, while giving my 
 Currently you have two options for running the project, either locally or via `docker` container.
 
 ### Locally
-Run `pip install -r requirements.txt` to install the dependencies to you local machine, or create a virtual environment and run the same command in the virtual environment shell
+Run `pip install -r requirements.txt` to install the dependencies to you local machine, or create a virtual environment and run the same command in the virtual environment shell.
+
+After installing the dependencies, just run:
+```
+python manage.py runserver
+```
+
+And the app should be accessible via `localhost:8000`.
 
 ### Docker
 Make sure you have `docker` installed in you machine and run:
