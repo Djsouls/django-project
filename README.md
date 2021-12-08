@@ -20,3 +20,7 @@ docker run -p 8000:8000 django-project
 ```
 
 And it's done, after the running process is complete, the app should be accessible via `localhost:8000`.
+
+## About .env file
+This file should NOT be here, the only reason he's in the upstream repo is for facilitating a quick approach to run and test the application. Ideally, every deploy of the project should have it's own .env file with the respectives environment variables, following the [12 factor philosophy](https://12factor.net/config).
+
